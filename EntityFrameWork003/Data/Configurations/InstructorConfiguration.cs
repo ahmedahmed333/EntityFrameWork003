@@ -22,9 +22,9 @@ namespace EntityFrameWork003.Data.Configurations
                    .HasForeignKey(c => c.InstructorId)
                    .OnDelete(DeleteBehavior.Restrict);
 
-            builder.HasData(
-    new Instructor { Id = 1, FullName = "Ahmed Hassan", Email = "ahmed@learn.com", Bio = "Backend trainer", JoinedAt = new DateTime(2024, 1, 10) },
-    new Instructor { Id = 2, FullName = "Mona Samir", Email = "mona@learn.com", JoinedAt = new DateTime(2024, 3, 5) });
+    //        builder.HasData(
+    //new Instructor { Id = 1, FullName = "Ahmed Hassan", Email = "ahmed@learn.com", Bio = "Backend trainer", JoinedAt = new DateTime(2024, 1, 10) },
+    //new Instructor { Id = 2, FullName = "Mona Samir", Email = "mona@learn.com", JoinedAt = new DateTime(2024, 3, 5) });
 
         }
 

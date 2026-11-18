@@ -15,10 +15,10 @@ namespace EntityFrameWork003.Data.Configurations
             builder.Property(s => s.DateOfBirth).IsRequired();
 
 
-            builder.HasData(
-    new Student { Id = 1, FullName = "Sara Ali", Email = "sara@mail.com", DateOfBirth = new DateTime(2000, 5, 1) },
-    new Student { Id = 2, FullName = "Omar Khaled", Email = "omar@mail.com", DateOfBirth = new DateTime(1999, 8, 15) },
-    new Student { Id = 3, FullName = "Nour Tarek", Email = "nour@mail.com", DateOfBirth = new DateTime(2001, 2, 20) });
+    //        builder.HasData(
+    //new Student { Id = 1, FullName = "Sara Ali", Email = "sara@mail.com", DateOfBirth = new DateTime(2000, 5, 1) },
+    //new Student { Id = 2, FullName = "Omar Khaled", Email = "omar@mail.com", DateOfBirth = new DateTime(1999, 8, 15) },
+    //new Student { Id = 3, FullName = "Nour Tarek", Email = "nour@mail.com", DateOfBirth = new DateTime(2001, 2, 20) });
         }
     }
 }

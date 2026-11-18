@@ -34,10 +34,10 @@ namespace EntityFrameWork003.Data.Configurations
                         .OnDelete(DeleteBehavior.Cascade);
 
 
-            builder.HasData(
-    new Enrollment { StudentId = 1, CourseId = 1, EnrollmentDate = new DateTime(2024, 6, 1), Progress = 40, Status = EnrollmentStatus.Active },
-    new Enrollment { StudentId = 2, CourseId = 1, EnrollmentDate = new DateTime(2024, 6, 2), Progress = 100, Status = EnrollmentStatus.Completed, FinalGrade = 92.5m },
-    new Enrollment { StudentId = 1, CourseId = 2, EnrollmentDate = new DateTime(2024, 6, 3), Progress = 10, Status = EnrollmentStatus.Active });
+    //        builder.HasData(
+    //new Enrollment { StudentId = 1, CourseId = 1, EnrollmentDate = new DateTime(2024, 6, 1), Progress = 40, Status = EnrollmentStatus.Active },
+    //new Enrollment { StudentId = 2, CourseId = 1, EnrollmentDate = new DateTime(2024, 6, 2), Progress = 100, Status = EnrollmentStatus.Completed, FinalGrade = 92.5m },
+    //new Enrollment { StudentId = 1, CourseId = 2, EnrollmentDate = new DateTime(2024, 6, 3), Progress = 10, Status = EnrollmentStatus.Active });
         }
     }
 }

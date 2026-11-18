@@ -19,39 +19,39 @@ namespace EntityFrameWork003.Data.Configurations
             builder.Property(c => c.IsPublished).HasDefaultValue(false);
 
 
-            builder.HasData(
-    new Course
-    {
-        Id = 1,
-        Title = "ASP.NET Core Fundamentals",
-        Price = 499.99m,
-        Level = CourseLevel.Beginner,
-        IsPublished = true,
-        PublishedDate = new DateTime(2024, 4, 1),
-        InstructorId = 1,
-        CategoryId = 3
-    },
-    new Course
-    {
-        Id = 2,
-        Title = "Advanced EF Core",
-        Price = 799m,
-        Level = CourseLevel.Advanced,
-        IsPublished = true,
-        PublishedDate = new DateTime(2024, 5, 1),
-        InstructorId = 1,
-        CategoryId = 2
-    },
-    new Course
-    {
-        Id = 3,
-        Title = "UI Design Basics",
-        Price = 299m,
-        Level = CourseLevel.Beginner,
-        IsPublished = false,
-        InstructorId = 2,
-        CategoryId = 4
-    });
+    //        builder.HasData(
+    //new Course
+    //{
+    //    Id = 1,
+    //    Title = "ASP.NET Core Fundamentals",
+    //    Price = 499.99m,
+    //    Level = CourseLevel.Beginner,
+    //    IsPublished = true,
+    //    PublishedDate = new DateTime(2024, 4, 1),
+    //    InstructorId = 1,
+    //    CategoryId = 3
+    //},
+    //new Course
+    //{
+    //    Id = 2,
+    //    Title = "Advanced EF Core",
+    //    Price = 799m,
+    //    Level = CourseLevel.Advanced,
+    //    IsPublished = true,
+    //    PublishedDate = new DateTime(2024, 5, 1),
+    //    InstructorId = 1,
+    //    CategoryId = 2
+    //},
+    //new Course
+    //{
+    //    Id = 3,
+    //    Title = "UI Design Basics",
+    //    Price = 299m,
+    //    Level = CourseLevel.Beginner,
+    //    IsPublished = false,
+    //    InstructorId = 2,
+    //    CategoryId = 4
+    //});
         }
     }
 }
